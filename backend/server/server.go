@@ -83,7 +83,7 @@ func Start() {
 	handler := c.Handler(router) // Use the Gorilla Mux router here
 
 	log.Println("Starting server on :8080")
-	if err := http.ListenAndServe(":8080", handler); err != nil {
+	if err := http.ListenAndServe("0.0.0.0:8080", handler); err != nil {
 		log.Fatal(err)
 	}
 }
