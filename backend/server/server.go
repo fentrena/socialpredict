@@ -24,13 +24,14 @@ import (
 func Start() {
 	// CORS handler
 	c := cors.New(cors.Options{
-		AllowedOrigins: []string{
-			"http://localhost:8089",
-		},
-		AllowedMethods:   []string{"GET", "POST", "OPTIONS"},
-		AllowedHeaders:   []string{"Content-Type", "Authorization"},
-		AllowCredentials: true,
-	})
+    AllowedOrigins: []string{
+        "http://localhost:8089",
+        "https://socialpredict.vercel.app",
+    },
+    AllowedMethods:   []string{"GET", "POST", "OPTIONS"},
+    AllowedHeaders:   []string{"Content-Type", "Authorization"},
+    AllowCredentials: true,
+})
 
 	// Initialize mux router
 	router := mux.NewRouter()
