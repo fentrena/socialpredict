@@ -26,7 +26,7 @@ func Start() {
 	c := cors.New(cors.Options{
     AllowedOrigins: []string{
         "http://localhost:8089",
-        "https://socialpredict.vercel.app",
+        "https://socialpredict-7jbd.vercel.app",
     },
     AllowedMethods:   []string{"GET", "POST", "OPTIONS"},
     AllowedHeaders:   []string{"Content-Type", "Authorization"},
