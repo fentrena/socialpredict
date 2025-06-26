@@ -24,7 +24,7 @@ function Home() {
         <div className='space-y-8'>
           <section className='bg-gray-800 rounded-lg p-6 shadow-lg'>
             <h2 className='text-xl font-semibold mb-3 text-custom-gray-light'>
-              About BFF
+              Sobre EVENTIA
             </h2>
             <p className='text-base mb-4'>
               EVENTIA es una plataforma para predicir eventos políticos, sociales, financieros, crisis globales y mucho más.  Estamos en fase de desarrollo y tu colabroación le va a dar forma a esta plataforma.
