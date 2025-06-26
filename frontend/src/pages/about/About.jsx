@@ -4,7 +4,7 @@ function About() {
   return (
     <div className='flex flex-col h-full text-white p-4 md:p-6 lg:p-8'>
       <h1 className='text-2xl md:text-3xl font-bold mb-4'>
-        About SocialPredict
+        Sobre EVENTIA
       </h1>
       <div className='bg-gray-800 rounded-lg shadow-lg flex-grow overflow-auto'>
         <div className='p-4 md:p-6 space-y-4 md:space-y-6'>
@@ -21,73 +21,66 @@ function About() {
 
           <section>
             <h2 className='text-xl font-semibold mb-2'>
-              Empowering Communities with Domain-Specific Insights
+              Fortaleciendo comunidades con información sectorial
             </h2>
-            <p className='mb-2'>Have you heard of Prediction Markets?</p>
+            <p className='mb-2'>Que son los mercados de predicciones?</p>
             <ul className='list-disc list-inside pl-4'>
               <li>
-                Prediction Markets, unlike polls, incentivize accuracy.
-                Participants take a stake in what they think is correct,
-                promoting rigorous research and reducing bias.
+                A diferencia de las encuestas, los mercados de predicción premian la exactitud. Los participantes apuestan por lo que consideran acertado, lo que impulsa una investigación exhaustiva y minimiza los prejuicios.
               </li>
             </ul>
           </section>
 
           <section>
             <h3 className='text-lg font-semibold mb-2'>
-              Efficiency through Community Engagement
+              Eficiencia gracias a la participación de los interesados
             </h3>
             <p className='mb-2'>SocialPredict is Open Source Software Which:</p>
             <ul className='list-disc list-inside pl-4'>
               <li>
-                Embraces the open-source ethos, making our platform free for
-                anyone to deploy under the MIT License.
+                Abierta para la participación de todos, permitiendo que cualquiera pueda apostar en los resultados que cree válidos
               </li>
             </ul>
           </section>
 
           <section>
             <h3 className='text-lg font-semibold mb-2'>
-              Domain-Specific Prediction Markets
+              Mercados de predicción especializados
             </h3>
             <p className='mb-2'>
-              Imagine a prediction market platform tailored to specific
-              interests, for example, photography and cameras:
+              Imagina un mercado especializado en fluctuaciones de una divisa:
             </p>
             <ul className='list-disc list-inside pl-4'>
               <li>
-                An admin runs a photographers-and-industry-specialists-only
-                prediction market platform.
+                Los usuarios pueden predecir el valor de la divisa en un tiempo específico.
               </li>
               <li>
-                Discussions and bets on technology predictions, specific to
-                photography and adjacent technology.
+                Discusiones y apuestos sobre este tópico y otros relacionados surgen.
               </li>
             </ul>
           </section>
 
           <section>
             <h3 className='text-lg font-semibold mb-2'>
-              Community Empowering Mission
+              Fortalaciendo el conocimiento y la veracidad
             </h3>
             <p className='mb-2'>We strive to:</p>
             <ul className='list-disc list-inside pl-4'>
-              <li>Empower communities to predict outcomes efficiently.</li>
-              <li>Foster deeper understanding of chosen domains.</li>
-              <li>Facilitate the exchange of valuable insights.</li>
+              <li>Empoderando a los usuarios para hacer predicciones de manera eficiente.</li>
+              <li>Fomentando una comprensión más profunda de áreas específicas.</li>
+              <li>Facilitando el intercambio de conocimientos valiosos.</li>
             </ul>
           </section>
 
           <p className='text-lg font-bold text-center my-4 md:my-6'>
-            Join us in shaping the future of prediction markets by building
-            connections and expertise within your community.
+            Únete a nosotros para darle forma al futuro de los mercados de predicciones, construyendo conexiones y conociemto dentro de tu comunidad.
           </p>
 
           <hr className='border-gray-700 my-4 md:my-6' />
 
           <section>
             <h2 className='text-xl font-bold mb-2'>Join Us</h2>
-            <p className='mb-2'>There are a few ways to support us:</p>
+            <p className='mb-2'>Hay varias formas de involucrase en el proyecto:</p>
             <ul className='list-disc list-inside pl-4 space-y-2'>
               <li>
                 <a
