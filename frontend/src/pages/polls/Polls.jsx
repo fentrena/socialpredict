@@ -8,7 +8,7 @@ function Polls() {
       <div className="text-lg font-medium text-custom-gray-verylight mb-4">
         <h1>Polls</h1>
       </div>
-      <div className='Center-content'>Coming Soon...</div>
+      <div className='Center-content'>En desarrollo...</div>
     </div>
   );
 }
