@@ -35,7 +35,7 @@ function About() {
             <h3 className='text-lg font-semibold mb-2'>
               Eficiencia gracias a la participación de los interesados
             </h3>
-            <p className='mb-2'>SocialPredict is Open Source Software Which:</p>
+            <p className='mb-2'>EVENTIA es una plataforma abierta:</p>
             <ul className='list-disc list-inside pl-4'>
               <li>
                 Abierta para la participación de todos, permitiendo que cualquiera pueda apostar en los resultados que cree válidos
@@ -64,11 +64,11 @@ function About() {
             <h3 className='text-lg font-semibold mb-2'>
               Fortalaciendo el conocimiento y la veracidad
             </h3>
-            <p className='mb-2'>We strive to:</p>
+            <p className='mb-2'>Nos motiva:</p>
             <ul className='list-disc list-inside pl-4'>
-              <li>Empoderando a los usuarios para hacer predicciones de manera eficiente.</li>
-              <li>Fomentando una comprensión más profunda de áreas específicas.</li>
-              <li>Facilitando el intercambio de conocimientos valiosos.</li>
+              <li>Empoderar a los usuarios para hacer predicciones de manera eficiente.</li>
+              <li>Fomentar una comprensión más profunda de áreas específicas.</li>
+              <li>Facilitar el intercambio de conocimientos valiosos.</li>
             </ul>
           </section>
 
