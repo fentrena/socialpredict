@@ -70,19 +70,19 @@ const Sidebar = () => {
       return (
         <>
           <SidebarLink to='/' icon={HomeSVG}>
-            Home
+            Inicio
           </SidebarLink>
           <li>
             <LoginModalButton />
           </li>
           <SidebarLink to='/markets' icon={MarketsSVG}>
-            Markets
+            Mercados
           </SidebarLink>
           <SidebarLink to='/polls' icon={PollsSVG}>
-            Polls
+            Encuestas
           </SidebarLink>
           <SidebarLink to='/about' icon={AboutSVG}>
-            About
+            Eventia
           </SidebarLink>
         </>
       );
