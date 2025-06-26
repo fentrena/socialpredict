@@ -28,36 +28,34 @@ function Home() {
               About BFF
             </h2>
             <p className='text-base mb-4'>
-              BFF is a platform for predictions on politics, finance, business,
-              world news, and more. We're in development, and your input will
-              shape a prediction platform that works for you.
+              EVENTIA es una plataforma para predicir eventos políticos, sociales, financieros, crisis globales y mucho más.  Estamos en fase de desarrollo y tu colabroación le va a dar forma a esta plataforma.
             </p>
             <h3 className='text-lg font-semibold mb-2 text-custom-gray-light'>
-              Code of Conduct
+              Código de Conducta
             </h3>
             <p className='text-base mb-2'>
-              We value free speech but do not tolerate:
+              Valoramos la libre expresión pero no toleramos:
             </p>
             <ul className='list-disc list-inside text-base pl-4'>
-              <li>Blatant racism</li>
-              <li>Advertising or solicitation</li>
+              <li>Racismo</li>
+      
               <li>Spamming</li>
-              <li>Harassment or bullying</li>
+              <li>Acoso o insultos</li>
             </ul>
           </section>
 
           <section className='text-center bg-blue-600 p-6 rounded-lg shadow-lg'>
             <h2 className='text-xl font-semibold mb-3 text-white'>
-              Join the Alpha Test
+              Unete al programa de pruebas y colabora con nosotros
             </h2>
             <p className='text-base mb-4 text-white'>
-              Submit your email and desired username to participate.
+              Envia tu email y el usuario con el que deseas participar.
             </p>
             <a
-              href='https://docs.google.com/forms/d/1YHPWXWFpVqIvFQHz-eGPQ8f4CMuFeQ4YUWa2jS5apKw/viewform?edit_requested=true'
+              href='https://admin.typeform.com/form/CKusbUvN/'
               className='inline-block bg-white text-blue-600 py-2 px-4 rounded-lg font-semibold text-base hover:bg-gray-100 transition duration-300'
             >
-              Submit Your Application
+              Envia tu aplicación
             </a>
           </section>
         </div>
